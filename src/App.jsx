@@ -1,12 +1,20 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Backed from "./components/backed/Backed";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
+import Special from "./components/special/Special";
+import Trusted from "./components/trusted/Trusted";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Navbar />
-      </div>
+      <Navbar />
+      <Header />
+      <Special />
+      <Trusted />
+      <Backed />
+      <Footer />
     </div>
   );
 }

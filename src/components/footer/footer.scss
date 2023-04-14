@@ -1,0 +1,138 @@
+footer {
+  background: #232427;
+  padding-top: 98px;
+  padding-bottom: 89px;
+  color: white;
+  margin-top: 110px;
+
+  @media (max-width: 768px) {
+    padding: 35px 0;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+      flex: 0 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+
+  &__copy {
+    margin-top: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #d6d5df;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    @media (max-width: 768px) {
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 12px;
+  }
+
+  &__input {
+    padding: 20px 8px;
+    outline: none;
+    border: none;
+    @media (max-width: 768px) {
+      padding: 15px 5px;
+    }
+  }
+
+  &__submit {
+    width: 40px;
+    height: 40px;
+    background: #2962ef;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 34px;
+
+    @media (max-width: 768px) {
+      gap: 20px;
+    }
+  }
+
+  &__link {
+    background: #5e5c6c;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.form {
+  &__label {
+    padding: 0 8px 0 0;
+    background: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 10px;
+  }
+}

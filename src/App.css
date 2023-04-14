@@ -2,8 +2,68 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "MetropolisNF", sans-serif;
 }
 
 ul {
   list-style: none;
+}
+
+.btn {
+  background: #2962ef;
+  border-radius: 4px;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.btn:hover {
+  background: #194fd8;
+  transition: all 0.3s;
+}
+
+.btn__outline {
+  color: #2962ef;
+  background: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.btn__outline:hover {
+  color: #194fd8;
+  transition: all 0.3s;
+}
+
+.section__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #232427;
+
+  @media (max-width: 992px) {
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 26px;
+  }
+}
+
+.section__subtitle {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9998a4;
+
+  @media (max-width: 480px) {
+    margin-top: 10px;
+  }
 }
